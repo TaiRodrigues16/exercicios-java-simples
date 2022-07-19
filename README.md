@@ -1,2 +1,3 @@
-# exercicios-java-simples
-Exemplos
+# Exercicios em Java
+
+Exemplos simples de alguns estudos
