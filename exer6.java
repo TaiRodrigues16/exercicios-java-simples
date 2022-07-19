@@ -1,8 +1,5 @@
-/*6. Faça um algoritmo que recebendo um vetor e calcula a 
-frequência de cada elemento encontrado dentro do vetor. 
-Tamanho será informado pelo usuário. */
-
-
+/*6. FaÃ§a um algoritmo que recebendo um vetor e calcula a frequÃªncia de cada elemento encontrado dentro do vetor. 
+Tamanho serÃ¡ informado pelo usuÃ¡rio. */
 
 package lista;
 
@@ -14,12 +11,11 @@ public class exer6 {
 		
 		Scanner teclado = new Scanner(System.in);
 		
-		
 		int vet[];
 		vet = new int [100];
 		int qtd,cont ;
 		
-		System.out.println("quantas posições vc deseja em seu vetor");
+		System.out.println("quantas posiÃ§Ãµes vc deseja em seu vetor");
 		qtd = teclado.nextInt();
 		
 		System.out.println("Agora digite o seu vetor");
@@ -31,28 +27,16 @@ public class exer6 {
 			
 		}
 		
-	for (int i = 0; i < qtd; i++) {
+		for (int i = 0; i < qtd; i++) {
 			cont =0;
 			for (int j = 0; j < qtd; j++) {
-				
 				if(vet[i] == vet[j]){
-					
 					cont ++;
-					
-					
 				}
-				
 			}
 			System.out.println("o numero "+ vet[i] +" apareceu "+ cont +"vezes" );	
-			
 		}
-		
-	
-		
-		
+			
 	}
-	
-	
-	
 
 }
