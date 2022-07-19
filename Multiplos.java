@@ -1,5 +1,4 @@
-/*Faça um programa que armazena 8 números e imprimi todos os números. Ao final,
-teremos o total de números múltiplos de seis digitados*/
+/*FaÃ§a um programa que armazena 8 nÃºmeros e imprimi todos os nÃºmeros. Ao final, teremos o total de nÃºmeros mÃºltiplos de seis digitados*/
 
 
 package lista;
@@ -16,25 +15,16 @@ public class exer3 {
 		vet = new int [8];
 		System.out.println("digite oito numeros");
 		for (int i = 0; i < 8; i++) {
-			
-			vet[i]= teclado.nextInt();
-			
+			vet[i]= teclado.nextInt();	
 		}
 		
-		
-			for (int i = 0; i < 8; i++) {
-			
-				if(vet[i]%2 == 0){
+		for (int i = 0; i < 8; i++) {
+			if(vet[i]%2 == 0){
 				cont ++;
-				}
-			
 			}
+		}
 		
 		System.out.println(cont);
 		
-		
 	}
-	
-	
-	
 }
