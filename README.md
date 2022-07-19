@@ -1,3 +1,3 @@
 # Exercicios em Java
 
-Exemplos simples de alguns estudos
+Exemplos simples de alguns estudos de lista.
